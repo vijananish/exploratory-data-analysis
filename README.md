@@ -65,6 +65,18 @@ In statistics, the mean is one of the measures of central tendency. Mean is noth
 If there is an outlier in the data then this will corrupt the mean.
 
 
+## Median
+
+The median is the middle number in a sorted, ascending or descending, list of numbers and can be more descriptive of that data set than the average. The median is sometimes used as opposed to the mean when there are outliers in the sequence that might skew the average of the values.
+
+![alt text](https://curvebreakerstestprep.com/wp-content/uploads/2021/03/Median-Formula.png)
+
+
+## Mode
+
+Mode is defined as the value that is repeatedly occurring in a given set. It is one of the three measures of central tendency, apart from mean and median. That means, mode or modal value is the value or number in a data set, which has a high frequency or appears more frequently.
+
+
 ## Variance
 
 According to layman’s words, the variance is a measure of how far a set of data are dispersed out from their mean or average value. It is denoted as ‘σ2’.
@@ -89,14 +101,59 @@ When the data values of a group are similar, then the standard deviation will be
 
 ![alt text](https://cdn1.byjus.com/wp-content/uploads/2021/03/variance-and-sd-formula.png)
 
-## Median
-
-
-## Mode
-
 
 ## CENTRAL TENDENCY 
 
 The central tendency measure is defined as the number used to represent the center or middle of a set of data values. The three commonly used measures of central tendency are the mean, median, and mode. A statistic that tells us how the data values are dispersed or spread out is called the measure of dispersion.
 
 ![alt text](https://cdn1.byjus.com/wp-content/uploads/2020/01/Relation-Between-Mean-Median-and-Mode-1.png)
+
+
+## PERCENTILE
+
+A percentile (or a centile) is a measure used in statistics indicating the value below which a given percentage of observations in a group of observations fall. For example, the 20th percentile is the value (or score) below which 20% of the observations may be found.
+
+## QUANTILES
+
+Quantiles are values that split sorted data or a probability distribution into equal parts.
+25%, 50%, 75% and 100 % are the quantiles.
+50% quantile is also meadian of the data.
+
+
+## MAD(Medain Absolute Deviation)
+
+In statistics, the median absolute deviation (MAD) is a robust measure of the variability of a univariate sample of quantitative data. It can also refer to the population parameter that is estimated by the MAD calculated from a sample.
+
+![alt text](https://www.asprova.jp/mrp/glossary/en/assets_c/2011/09/mrp_173-2-thumb-403x80-899.jpg)
+
+
+## BOXPLOT
+
+A box plot is a chart that shows data from a five-number summary including one of the measures of central tendency. It does not show the distribution in particular as much as a stem and leaf plot or histogram does. But it is primarily used to indicate a distribution is skewed or not and if there are potential unusual observations (also called outliers) present in the data set. Boxplots are also very beneficial when large numbers of data sets are involved or compared.
+
+![alt text](https://cdn1.byjus.com/wp-content/uploads/2020/10/Box-Plot-and-Whisker-Plot-1.png)
+
+Minimum: The minimum value in the given dataset
+
+First Quartile (Q1): The first quartile is the median of the lower half of the data set.
+
+Median: The median is the middle value of the dataset, which divides the given dataset into two equal parts. The median is considered as the second quartile.
+
+Third Quartile (Q3): The third quartile is the median of the upper half of the data.
+
+Maximum: The maximum value in the given dataset.
+
+Apart from these five terms, the other terms used in the box plot are:
+
+Interquartile Range (IQR): The difference between the third quartile and first quartile is known as the interquartile range. (i.e.) IQR = Q3-Q1
+
+Outlier: The data that falls on the far left or right side of the ordered data is tested to be the outliers. Generally, the outliers fall more than the specified distance from the first and third quartile. 
+
+(i.e.) Outliers are greater than Q3+(1.5 . IQR) or less than Q1-(1.5 . IQR).
+
+
+## VOILIN PLOT
+
+Violin Plot is a method to visualize the distribution of numerical data of different variables. It is similar to Box Plot but with a rotated plot on each side, giving more information about the density estimate on the y-axis.
+
+![alt text](https://orange3.readthedocs.io/projects/orange-visual-programming/en/latest/_images/ViolinPlot-boxplot.png)
