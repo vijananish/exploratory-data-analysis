@@ -37,6 +37,7 @@ A variable that can only take on a certain finite value within a specific range 
 A continuous random variable can take on infinite different values within a range of values, e.g., amount of rainfall occurring in a month. The rain observed can be 1.7cm, but the exact value is not known. It can, in actuality, be 1.701, 1.7687, etc. As such, you can only define the range of values it falls into. Within this value, it can take on infinite different values.
 
 Now, consider a continuous random variable x, which has a probability density function, that defines the range of probabilities taken by this function as f(x). After plotting the pdf, you get a graph as shown below:                     
+![alt text](https://qphs.fs.quoracdn.net/main-qimg-d7874012557782750352f44e0357b331)
 
 ![alt text](https://www.simplilearn.com/ice9/free_resources_article_thumb/Probability_Density_Function/Probability_Density_Function_2.png)
 
@@ -45,7 +46,7 @@ In the above graph, you get a bell-shaped curve after plotting the function agai
 ```P(a) <= X <= P(b).```
 
 
-## COMULATIVE DENSITY FUNCTION
+## CUMULATIVE DENSITY FUNCTION
 
 The cumulative distribution function is used to describe the probability distribution of random variables. It can be used to describe the probability for a discrete, continuous or mixed variable. It is obtained by summing up the probability density function and getting the cumulative probability for a random variable.
 
@@ -53,6 +54,7 @@ The Probability Density Function is a function that gives us the probability dis
 
 The cumulative distribution function of a random variable to be calculated at a point x is represented as Fx(X). It is the probability that the random variable X will take a value less than or equal to x.
 
+```F(x)=P(X≤x), for all x∈R.```
 
 ```Differentiate CDF = PDF```
 
